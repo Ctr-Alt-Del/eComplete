@@ -1,38 +1,568 @@
-.App {
+body{
+  height: 100vh
+}
+.logo{
+  height: 60px;
+  padding: 20px 0 0 20px;
+}
+
+.navBar{
+  margin-top: 30px;
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.navBar a{
+  padding: 0 0 0 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.catalogueImage{
+  width: 100%;
+  height: 100%;
+}
+
+.pngTop{
+  float: left;
+  padding-left: 20px;
+}
+
+.yoga3{
+  background-color: rgb(225, 221, 22)!important;
+}
+
+.yoga1 { grid-area: head; }
+.yoga2 { grid-area: left; }
+.yoga3 { grid-area: top; }
+.yoga4 { grid-area: right; }
+.yoga5 { grid-area: middle; }
+.yoga6 {grid-area: bottom;}
+
+.catalogue {
+  display: grid;
+  grid-template-areas:
+    'head head head '
+    'left top top '
+    'left middle right'
+    'bottom bottom right';
+  grid-gap: 15px;
+  padding: 15px;
+}
+
+.catalogue > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.rightText{
+  position: absolute;
+  top: 220px;
+  right: 45px;
+  text-align: left!important;
+  font-weight: 100!important;
+  width: 50vh;
+  box-sizing: border-box;
+}
+
+.leftText{
+  position: absolute;
+  top: 650px;
+  left: 30px;
+  text-align: left!important;
+  font-weight: 600!important;
+  width: 30vh;
+  background-color: rgba(255, 255, 255, 0)!important;
+  box-sizing: border-box;
+}
+
+.topText{
+  position: absolute;
+  top: 630px;
+  right: 30px;
+  width: 25%;
+  float: right;
+  text-align: left!important;
+  font-size: 30px;
+  background-color: rgb(225, 221, 22)!important;
+  font-weight: 300;
+}
+
+.middleText{
+  position: absolute;
+  top: 900px;
+  right: 450px;
+  width: 20%;
+  float: right;
+  text-align: left!important;
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0)!important;
+  font-weight: 300;
+}
+
+.righterText{
+  position: absolute;
+  top: 880px;
+  right: 45px;
+  text-align: left!important;
+  font-weight: 100!important;
+  width: 40vh;
+  box-sizing: border-box;
+}
+
+.bottomText{
+  position: absolute;
+  top: 1320px;
+  left: 150px;
+  text-align: left!important;
+  font-weight: 100!important;
+  width: 70vh;
+  box-sizing: border-box;
+}
+
+.heading {
+  padding-left: 20px;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+.heading2 {
+  padding-left: 20px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  font-size: 45px;
+}
+
+.heading3 {
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: -5px;
+  font-size: 23px;
+}
+
+
+.description{
+  padding-left: 20px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.description2{
+  padding-left: 20px;
+  margin-top: -5px;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.shopYoga{
+  background-color: #1979c3;
+  border: 1px solid #1979c3;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 20px;
+  padding: 10px 10px;
+}
+
+.shopPantsTees{
+  background-color: #1979c300;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: small;
+  color: black;
+  margin-left: 10px;
+  padding: 10px 10px;
+}
+
+.title{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+}
+
+.subTitle{
+  text-align: center;
+  font-size: 20px;
+}
+
+.topSeller{
+  width: 200px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto 0px auto;
+}
+
+.product{
+  width: 230px;
+  height: 390px;
+  border: 1px solid rgba(255, 255, 255, 0)
+}
+
+.product:hover{
+  border: 1px solid grey;
+  box-shadow: 3px 3px 5px 0px grey;
+}
+
+.info{
+  padding: 10px 10px;
+}
+
+span{
+  display: inline-flex;
+}
+
+.shopify{
+  background-color: #1979c3;
+  border: 1px solid #1979c3;
+  border-radius: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  padding: 5px 10px;
+}
+
+.shopify:hover{
+  background-color: #0c60a0;
+}
+
+.likeButton{
+  background-color: white;
+  border: 1px solid white;
+  margin-left: 5px
+}
+
+.likeButton:hover{
+  color: black
+}
+
+.links a{
+  display: block;
+  color: rgb(88, 88, 88);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.emailThingy{
+  float: right;
+}
+
+.mail{
+  border: 1px solid grey;
+  border-radius: 0px;
+  height: 32px;
+}
+
+.mailInput{
+  width: 300px;
+}
+
+.mailSubmit{
+  background-color: #1979c3;
+  border: 1px solid #1979c3;
+  border-radius: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  padding: 5px 10px;
+}
+
+.mailSubmit:hover{
+  background-color: #0c60a0;
+}
+
+.foot{
+  background-color: #6e716e;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  height: 35px;
+  padding-top: 10px;
+}
+
+.feet2{
+  position: absolute; 
+  width: 100%;
+  bottom: 0;
+}
+
+.catalogue2{
+  margin: 20px;
+}
+
+.product2{
+  border: 1px solid rgba(0, 0, 0, 0);
+  width: auto;  
+  padding: 0px 8px;
+}
+
+.product2:hover{
+  border: 1px solid grey;
+  box-shadow: 3px 3px 5px 0px grey;
+}
+
+.womanImg{
+  height: 260px;
+  width: 210px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size{
+  font-weight: 500;
+  width: 40px;
+  height: 30px;
+  display: inline;
+  justify-content: space-between;
+  margin-right: 2px;
+  border: 1px solid rgb(197, 197, 197);
+}
+
+.size:hover{
+  border: 1px solid rgb(104, 104, 104);
+  border-radius: -10px!important
+}
+
+.color{
+  width: 40px;
+  height: 25px;
+  margin: 0px 1px 5px 1px; 
+  border: 2px solid rgba(197, 197, 197, 0.322);
+}
+
+.color:hover{
+  border: 2px solid red;
+}
+
+.magicButtons {
+  display: block;
+}
+    
+.color:hover + .magicButtons{
+  display: none!important;
+  color: red;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+.preview{
+  height: 566px;
+  width: 456px;
+  float: right;
+}
+
+.miniPreview{
+  width: 88px;
+  height: 110px;
+  
+}
+
+.buttonPreview{
+  outline: hidden;
+  border: 1px solid rgba(0, 0, 0, 0);
+  margin: 0px 3px
+}
+
+.buttonPreview:hover{
+  border: 2px solid red;
+}
+
+.previewBox{
+  width: 630px;
+  height: 566px;
+}
+
+.infoStuff{
+  width: 100%;
+  height: 100%;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
+.productHeading{
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.reviews{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline!important;
+  color: blue!important;
+}
+
+.price{
+  font-size: 40px;
+  font-weight: 500;
+  border-bottom: 2px solid grey;
+}
+
+.quantity{
+  width: 45px;
+  height: 30px;
+  border: 1px solid rgb(197, 197, 197);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.addToCart{
+  height: 50px;
+  width: 250px;
+  border: 1px solid  #1979c3;
+  background-color:  #1979c3;
+  font-size: 20px;
+  font-weight: 500;
   color: white;
+  border-radius: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.likeButton2{
+  background-color: white;
+  border: 1px solid white;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(88, 88, 88);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.likeButton2:hover{
+  color: black
+}
+
+.body{
+  margin: 0 20px;
+}
+
+.inforButton{
+  border: 1px solid grey;
+  height: 50px;
+  width: 160px;
+  border-radius: 0px
+}
+
+.inforSomething{
+  border: 1px solid grey; 
+  border-radius: 0px;
+  padding: 15px
+}
+
+.collapseHeading{
+  font-size: 23px;
+}
+
+.test{
+  border: 10px solid black
+}
+
+.Category{
+  border: 10px solid black
+}
+
+.is-closed{
+  cursor: pointer;
+}
+
+.Collapsible__trigger{
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  border-top: 1px solid rgb(168, 168, 168);
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.filters a{
+  color: black;
+  cursor: pointer
+}
+
+.filters a:hover{
+  background-color: rgb(221, 221, 221);
+  text-decoration: none;
+}
+
+svg:not(:root){
+  height: 100px;
+  background-color: #00ff0000;
+}
+
+svg:not(:root):hover{
+  background-color: rgba(128, 128, 128, 0.377); 
+}
+
+.shipTitle{
+  font-weight: 300;
+}
+
+.shipInput{
+  width: 70%;
+  border: 1px solid #b6b6b6;
+}
+
+.tots{
+  float: right!important;
+  margin-right: 1px!important;
+  margin-left: auto!important;
+}
+
+.toats{
+  display: flex;
+}
+
+.deets{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.linkToProducts a{
+  text-decoration: none;
+  color: black;
+}
+
+.errorTitle{
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 300
+}
+
+.errorInfo{
+  font-size: 16px;
+}
+
+.error li{
+  font-size: 14px;
+}
+
+.errorPage{
+  display: block
 }

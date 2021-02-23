@@ -1,0 +1,81 @@
+{
+    "products": [
+        {   "id": "1",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/t/mt12-blue_main.jpg",
+            "name": "Cassius Sparring Tank",
+            "price": "$18.00",
+            "reviews": "2 reviews",
+            "color1" : "blue",
+            "visible": "hidden"
+        },
+        {
+            "id": "2",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/s/ms07-green_main.jpg",
+            "name": "Deion Long-Sleeve EverCool™ Tee",
+            "price": "$39.00",
+            "reviews": "3 reviews",
+            "color1" : "black",
+            "color2" : "green"
+        },
+        {
+            "id": "3",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/s/ms10-blue_main.jpg",
+            "name": "Logan HeatTec® Tee",
+            "price": "$24.00",
+            "reviews": "3 reviews",
+            "color1" : "blue",
+            "color2" : "red",
+            "color3" : "black"
+        },
+        {
+            "id": "4",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/s/ms02-gray_main.jpg",
+            "name": "Ryker LumaTech™ Tee (V-neck)",
+            "price": "$28.00",
+            "reviews": "2 reviews",
+            "color1" : "black",
+            "color2" : "blue",
+            "color3" : "grey"
+        },
+        {
+            "id": "5",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/s/ms01-blue_main.jpg",
+            "name": "Aero Daily Fitness Tee",
+            "price": "$24.00",
+            "reviews": "3 reviews",
+            "color1" : "black",
+            "color2" : "brown",
+            "color3" : "yellow"
+        },
+        {
+            "id": "6",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/s/ms06-blue_main.jpg",
+            "name": "Zoltan Gym Tee",
+            "price": "$29.00",
+            "reviews": "2 reviews",
+            "color1" : "blue",
+            "color2" : "green",
+            "color3" : "yellow"
+        },
+        {
+            "id": "7",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/s/ms03-black_main.jpg",
+            "name": "Balboa Persistence Tee",
+            "price": "$29.00",
+            "reviews": "2 reviews",
+            "color1" : "grey",
+            "color2" : "green",
+            "color3" : "orange"
+        },
+        {
+            "id": "8",
+            "image": "http://demo-magento2.vuestorefront.io/media/catalog/product/cache/f073062f50e48eb0f0998593e568d857/m/s/ms12-red_main.jpg",
+            "name": "Atomic Endurance Running Tee (Crew-Neck)",
+            "price": "$29.00",
+            "reviews": "3 reviews",
+            "color1" : "black",
+            "color2" : "blue",
+            "color3" : "red"
+        }
+    ]
+}
